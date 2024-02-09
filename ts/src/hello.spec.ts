@@ -6,6 +6,6 @@ describe("kata", function () {
   });
 
   it("should fail", () => {
-    expect(hello()).toBe("Hello world!");
+    expect(hello()).toBe("Hi!");
   });
 });

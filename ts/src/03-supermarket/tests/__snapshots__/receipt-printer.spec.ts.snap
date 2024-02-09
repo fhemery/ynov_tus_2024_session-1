@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Receipt printer should return a single product in the receipt when there is one product 1`] = `
+"Apples                              7.50
+  2.50 * 3.000
+
+Total:                              7.50"
+`;
+
+exports[`Receipt printer should return an empty receipt with 0 as total when no product 1`] = `
+"
+Total:                              0.00"
+`;
